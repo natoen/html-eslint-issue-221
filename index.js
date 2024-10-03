@@ -18,6 +18,7 @@ const PARSER_HTML = require('@html-eslint/parser');
 
   const lintResult = (await eslint.lintText(sourceCode, {
     // this is needed to work but this file does not exist
+    // https://github.com/BenoitZugmeyer/eslint-plugin-html/issues/294
     filePath: "placeholder.html"
   }))[0];
   console.log(results);
