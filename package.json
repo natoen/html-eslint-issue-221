@@ -1,0 +1,22 @@
+{
+  "name": "html-eslint-issue-221",
+  "version": "0.1.0",
+  "author": "Hiroshi Matsuda",
+  "private": true,
+  "dependencies": {
+    "@html-eslint/eslint-plugin": "^0.27.0",
+    "@html-eslint/parser": "^0.27.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-html": "^8.1.2",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^20",
+    "typescript": "^5"
+  },
+  "volta": {
+    "node": "20.17.0",
+    "npm": "10.8.3"
+  }
+}
